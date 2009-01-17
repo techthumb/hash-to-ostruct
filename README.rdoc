@@ -11,12 +11,11 @@ hash-to-ostruct recursively transforms Hash to OpenStruct
 hash-to-ostruct recursively transforms Hash to OpenStruct
 
 == SYNOPSIS:
-code
-require 'hash-to-ostruct'
-person_hash = {:first_name => 'Joe', :last_name => 'Citizen'}
-person = person_hash.to_ostruct
-person.first_name => "Joe"
-person.last_name => "Citizen"
+  require 'hash-to-ostruct'
+  person_hash = {:first_name => 'Joe', :last_name => 'Citizen'}
+  person = person_hash.to_ostruct
+  person.first_name => "Joe"
+  person.last_name => "Citizen"
 
 == REQUIREMENTS:
 
