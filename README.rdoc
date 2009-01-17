@@ -1,29 +1,33 @@
 = hash-to-ostruct
 
-* http://wiki.github.com/techthumb/hash-to-ostruct
+  http://wiki.github.com/techthumb/hash-to-ostruct
 
 == DESCRIPTION:
 
-hash-to-ostruct recursively transforms Hash to OpenStruct
+  hash-to-ostruct recursively transforms Hash to OpenStruct
 
 == FEATURES/PROBLEMS:
 
-hash-to-ostruct recursively transforms Hash to OpenStruct
+  hash-to-ostruct recursively transforms Hash to OpenStruct
 
 == SYNOPSIS:
+  # Hash of hashes
   require 'hash-to-ostruct'
-  person_hash = {:first_name => 'Joe', :last_name => 'Citizen'}
-  person = person_hash.to_ostruct
-  person.first_name => "Joe"
-  person.last_name => "Citizen"
+  countries_hash = {}
+  countries_hash[:australia] = { capital => 'Canberra', currency_code => 'AUD' }
+  countries_hash[:united_kingdom] = { :capital => 'London', :currency_code => 'GBP' }
+  countries = countries_hash.to_ostruct
+  countries.australia.capital => "Canberra"
+  countries.united_kingdom.currency_code => "GBP"
+
 
 == REQUIREMENTS:
 
-Basic ruby installation
+  Basic ruby installation
 
 == INSTALL:
 
-sudo gem install hash-to-ostruct
+  sudo gem install hash-to-ostruct
 
 == LICENSE:
 
