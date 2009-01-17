@@ -1,0 +1,12 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README
+README.rdoc
+Rakefile
+lib/hash-to-ostruct.rb
+script/console
+script/destroy
+script/generate
+test/test_hash-to-ostruct.rb
+test/test_helper.rb
