@@ -1,4 +1,4 @@
-require 'lib/hash_to_openstruct'
+require 'lib/hash-to-ostruct'
 
 describe 'Hash to OpenStruct transformation with simple values' do
   it 'should transform strings as values' do

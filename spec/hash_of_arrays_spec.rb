@@ -1,4 +1,4 @@
-require 'lib/hash_to_openstruct'
+require 'lib/hash-to-ostruct'
 
 describe 'hash of arrays with hashes as array elements' do
   it 'should handle an array of hashes with the same keys' do

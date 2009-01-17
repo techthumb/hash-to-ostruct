@@ -1,4 +1,4 @@
-require 'lib/hash_to_openstruct'
+require 'lib/hash-to-ostruct'
 
 describe 'hash of hashes' do
   it 'should handle chaining of child elements as hashes for depth level of 1' do

@@ -8,5 +8,3 @@ lib/hash-to-ostruct.rb
 script/console
 script/destroy
 script/generate
-test/test_hash-to-ostruct.rb
-test/test_helper.rb
