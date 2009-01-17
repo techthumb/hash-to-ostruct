@@ -1,5 +1,4 @@
 Manifest.txt
-README
 README.rdoc
 Rakefile
 lib/hash-to-ostruct.rb
