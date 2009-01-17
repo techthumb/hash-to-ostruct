@@ -11,8 +11,13 @@ hash-to-ostruct recursively transforms Hash to OpenStruct
 hash-to-ostruct recursively transforms Hash to OpenStruct
 
 == SYNOPSIS:
+require 'hash-to-ostruct'
+person_hash = {:first_name => 'Joe', :last_name => 'Citizen'}
+person = person_hash.to_ostruct
+person.first_name => "Joe"
+person.last_name => "Citizen"
 
-  FIX (code sample of usage)
+
 
 == REQUIREMENTS:
 
@@ -20,7 +25,7 @@ Basic ruby installation
 
 == INSTALL:
 
-sudo gem install 'hash-to-ostruct'
+sudo gem install hash-to-ostruct
 
 == LICENSE:
 
