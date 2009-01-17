@@ -1,14 +1,14 @@
 = hash-to-ostruct
 
-  http://wiki.github.com/techthumb/hash-to-ostruct
+*  http://wiki.github.com/techthumb/hash-to-ostruct
 
 == DESCRIPTION:
 
   hash-to-ostruct recursively transforms Hash to OpenStruct
 
 == FEATURES/PROBLEMS:
-
-  hash-to-ostruct recursively transforms Hash to OpenStruct
+*  transforms a hash recursively (i.e. hash of hashes)
+*  transofrms a hash of arrays with hashes as element arrays
 
 == SYNOPSIS:
   # Hash of hashes
@@ -33,7 +33,7 @@
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 Kunal Parikh
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
