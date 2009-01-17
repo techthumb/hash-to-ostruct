@@ -6,7 +6,6 @@ require File.dirname(__FILE__) + '/lib/hash-to-ostruct'
 
 $hoe = Hoe.new('hash-to-ostruct', HashToOstruct::VERSION) do |p|
   p.developer('Kunal Parikh', 'kunal@techthumb.in')
-  p.changes              = p.paragraphs_of("History.txt", 0..1).join("\n\n")
   p.rubyforge_name       = p.name
   p.extra_dev_deps = [
     ['newgem', ">= #{::Newgem::VERSION}"]
