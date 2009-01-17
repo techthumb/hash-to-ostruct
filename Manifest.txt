@@ -5,6 +5,13 @@ README
 README.rdoc
 Rakefile
 lib/hash-to-ostruct.rb
+lib/hash-to-ostruct/extensions/array.rb
+lib/hash-to-ostruct/extensions/hash.rb
+lib/hash-to-ostruct/extensions/object.rb
 script/console
 script/destroy
 script/generate
+spec/hash_of_arrays_spec.rb
+spec/hash_of_hashes_spec.rb
+spec/hash_with_simple_values_spec.rb
+tasks/spec.rake
