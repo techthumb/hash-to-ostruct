@@ -1,14 +1,14 @@
 = hash-to-ostruct
 
-* FIX (url)
+* http://wiki.github.com/techthumb/hash-to-ostruct
 
 == DESCRIPTION:
 
-FIX (describe your package)
+hash-to-ostruct recursively transforms Hash to OpenStruct
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+hash-to-ostruct recursively transforms Hash to OpenStruct
 
 == SYNOPSIS:
 
@@ -16,11 +16,11 @@ FIX (describe your package)
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+Basic ruby installation
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+sudo gem install 'hash-to-ostruct'
 
 == LICENSE:
 
