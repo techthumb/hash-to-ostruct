@@ -6,20 +6,20 @@ It supports:
 *	hash of arrays with hashes as elements
 
 == SYNOPSIS:
-  # Example One: Hash of hashes
-  require 'hash-to-ostruct'
+	# Example One: Hash of hashes
+	require 'hash-to-ostruct'
 
-  countries_hash = {}
-  countries_hash[:australia] = { capital => 'Canberra', currency_code => 'AUD' }
-  countries_hash[:england] = { :capital => 'London', :currency_code => 'GBP' }
+	countries_hash = {}
+	countries_hash[:australia] = { :capital => 'Canberra', :currency_code => 'AUD' }
+	countries_hash[:england] = { :capital => 'London', :currency_code => 'GBP' }
 
-  countries = countries_hash.to_ostruct
+	countries = countries_hash.to_ostruct
 
-  countries.australia.capital => "Canberra"
-  countries.australia.currency_code => "AUD"
+	countries.australia.capital          # returns "Canberra"
+	countries.australia.currency_code    # returns "AUD"
 
-  countries.england.capital => "London"
-  countries.england.currency_code => "GBP"
+	countries.england.capital            # returns "London"
+	countries.england.currency_code      # returns "GBP"
 
 == INSTALL:
 
